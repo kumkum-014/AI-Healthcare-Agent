@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Healthcare Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <div class="header">
+            <div class="icon">🩺</div>
+
+            <div>
+                <h1>AI Healthcare Assistant</h1>
+                <p>Your healthcare information assistant</p>
+            </div>
+        </div>
+
+
+        <div id="chat-box" class="chat-box">
+
+            <div class="message bot">
+                <div class="avatar">🩺</div>
+
+                <div class="bubble">
+                    Hello! 👋<br><br>
+                    I'm your AI Healthcare Assistant.
+                    You can ask me general healthcare questions.
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask a healthcare question..."
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+
+        <div class="disclaimer">
+            ⚠️ This chatbot provides general health information
+            and is not a substitute for professional medical advice.
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

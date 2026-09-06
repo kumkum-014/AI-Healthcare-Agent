@@ -1,0 +1,29 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# ChromaDB
+chroma_db/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
